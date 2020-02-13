@@ -13,11 +13,11 @@ The JSON file extraction code is in backend/extract_activities.py.
 
 Each activity returned relates a target (target_chembl_id) to an active molecule (molecule_chembl_id) through a pChEMBL value. Higher, pChEMBL values indicate more active molecules. 
 
-The aim of the visualisation is to show activity count, maximum pchembl value and average pchembl value per target-molecule pair. 
+The aim of the visualisation is to show activity count, maximum pChEMBL value and average pChEMBL value per target-molecule pair. 
 
-The x-axis is the target_chembl_id and the y-axis is the molecule_chembl_id. On the click of each button, the connector list changes between activity count, maximum pchembl value and average pchembl value.
+The x-axis is the target_chembl_id and the y-axis is the molecule_chembl_id. On the click of each button, the connector list changes between activity count, maximum pChEMBL value and average pChEMBL value.
 
-### Given Lists
+### Provided Lists
 
 List of targets:
 CHEMBL325
@@ -49,7 +49,7 @@ CHEMBL1914702
 ```
 docker-compose up
 ```
-Please visit localhost:8080/heatmap to access the visualisation of heatmap and 10.5.0.5:5000/activities to access the json file data from the backend. To access all endpoints visit urls below,
+Visit localhost:8080/ to access the visualisation of heatmap and 10.5.0.5:5000/activities to access the json file data from the backend. To access all endpoints visit urls below,
 
 Activity count url: 10.5.0.5:5000/activities/activity_count
 Maximum pchembl value url: 10.5.0.5:5000/activities/max_pchembl_value

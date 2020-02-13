@@ -10,6 +10,8 @@ RUN pip install -r requirements.txt
 
 COPY . /
 
+CMD python extract_activities.py
+
 ENV FLASK_APP app.py
 
 CMD [ "flask", "run", "--host", "0.0.0.0"  ]

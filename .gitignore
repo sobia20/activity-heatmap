@@ -1,0 +1,31 @@
+/frontend/activity-heatmap/node_modules
+/frontend/activity-heatmap/dist
+
+#local env files of frontend
+/frontend/activity-heatmap/.env.local
+/frontend/activity-heatmap/.env.*.local
+
+# Log files
+/frontend/activity-heatmap/npm-debug.log*
+/frontend/activity-heatmap/yarn-debug.log*
+/frontend/activity-heatmap/yarn-error.log*
+
+# Editor directories and files
+/frontend/activity-heatmap/.idea
+/frontend/activity-heatmap/.vscode
+/frontend/activity-heatmap/*.suo
+/frontend/activity-heatmap/*.ntvs*
+/frontend/activity-heatmap/*.njsproj
+/frontend/activity-heatmap/*.sln
+/frontend/activity-heatmap/*.sw*
+
+# Python Virtual Environment
+/backend/backend-env
+
+# Byte-compiled / optimized / DLL files
+/backend/__pycache__/
+/backend/*.py[cod]
+/backend/*$py.class
+
+# C extensions
+/backend/*.so

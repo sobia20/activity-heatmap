@@ -1,2 +1,2 @@
-backend-env
-extract_activities.py
+/backend-env
+/__pycache__
