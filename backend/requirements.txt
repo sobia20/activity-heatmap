@@ -1,0 +1,15 @@
+Babel==2.6.0
+click==6.7
+Flask==1.0.2
+Flask-Cors==3.0.6
+gunicorn==0.17.2
+itsdangerous==0.24
+nose2==0.9.1
+pep8==1.7.1
+pytest==3.8.0
+Werkzeug==0.14.1
+MarkupSafe==1.0
+pathlib2==2.3.2
+requests==2.19.1
+Jinja2==2.10
+Mako==1.1.0

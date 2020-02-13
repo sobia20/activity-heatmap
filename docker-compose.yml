@@ -1,0 +1,29 @@
+version: "3.7"
+
+services:
+
+  flask:
+    build: ./backend
+    container_name: flask-app
+    restart: always
+    expose:
+      - 5000
+    networks:
+      vpcbr:
+        ipv4_address: 10.5.0.5
+
+  http-server:
+    build: ./frontend/activity-heatmap
+    container_name: vue-app
+    restart: always
+    ports:
+      - "8080:8080"
+
+networks:
+  vpcbr:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 10.5.0.0/16
+
+        
