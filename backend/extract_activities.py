@@ -33,15 +33,20 @@ def extract_json():
     new_client.activity.set_format('json')
     list_of_activities = []
     print('Fetching activity data from ChEMBL database to a json file')
-    for target in targets:
-        activities = new_client.activity.filter(target_chembl_id=target, molecule_chembl_id__in=molecules,
-                                                pchembl_value__isnull=False)
-        list_of_activities = list_of_activities + list(activities)
+    try:
+        for target in targets:
+            activities = new_client.activity.filter(target_chembl_id=target, molecule_chembl_id__in=molecules,
+                                                    pchembl_value__isnull=False)
+            list_of_activities = list_of_activities + list(activities)
+    except Exception as e:
+        print("An error occurred while fetching data. Unsuccessful", e)
+        exit(1)
     activities_dict = {"activity": list_of_activities}
-    f = open('./static/data/activities.json', 'w')
+    f = open("./static/data/activities.json", 'w')
     f.write(json.dumps(activities_dict))
     f.close()
     print('Successfully fetched data for targets and molecules in ./static/data/activities.json')
+
 
 
 if __name__ == '__main__':

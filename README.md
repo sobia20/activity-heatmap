@@ -2,6 +2,8 @@
 
 This is a heatmap visualisation of activities data from the ChEMBL database. From the ChEMBL Web Services, activity data extracted into a JSON file for a list of targets given below.
 
+![screen_gif](https://i.imgur.com/tGLmfqR.gif)
+
 Documentation for the Web Services is available here: 
 https://chembl.gitbook.io/chembl-interface-documentation/web-services/chembl-data-web-services 
 https://www.ebi.ac.uk/chembl/api/data/docs
@@ -50,15 +52,15 @@ CHEMBL1914702<br>
 ```
 docker-compose up
 ```
-Visit <i>localhost:8080/</i> to access the visualisation of heatmap and <i>10.5.0.5:5000/activities</i> to access the json file data from the backend. To access all endpoints visit urls below,
+Visit <i>localhost:8080/</i> to access the visualisation of heatmap and <i>localhost:5000/activities</i> to access the json file data from the backend. To access all endpoints visit urls below,
 
 <b>Activity count url:</b> <br>
-<i>10.5.0.5:5000/activities/activity_count</i>
+<i>localhost:5000/activities/activity_count</i>
 
 <b>Maximum pchembl value url: </b><br>
-<i>10.5.0.5:5000/activities/max_pchembl_value</i>
+<i>localhost:5000/activities/max_pchembl_value</i>
 
 <b>Average pchembl value url:</b> <br>
-<i>10.5.0.5:5000/activities/avg_pchembl_value</i>
+<i>localhost:5000/activities/avg_pchembl_value</i>
 
 

@@ -2,7 +2,7 @@
   <div id="hasheatmap">
     <meta charset="utf-8" http-equiv="encoding">
 
-    <v-btn color="success" dark large v-on:click="heatmap('http://localhost:5000/activities/activity_count', 'activity_count')">Number fo Activity data points</v-btn>
+    <v-btn color="success" dark large v-on:click="heatmap('http://localhost:5000/activities/activity_count', 'activity_count')">Number of Activity data points</v-btn>
    
     <v-btn color="success" dark large v-on:click="heatmap('http://localhost:5000/activities/max_pchembl_value', 'max_pchembl_value')">Maximum pChEMBL_value</v-btn>
   
