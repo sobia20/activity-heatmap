@@ -17,7 +17,7 @@ Each activity returned relates a target (`target_chembl_id`) to an active molecu
 
 The aim of the visualisation is to show `activity count`, `maximum pChEMBL value` and `average pChEMBL value` per target-molecule pair. 
 
-The x-axis is the `target_chembl_id` and the y-axis is the `molecule_chembl_id`. On the click of each button, the connector list changes between `activity count`, `maximum pChEMBL value` and `average pChEMBL value`.
+The <b>x-axis</b> is the `target_chembl_id` and the <b>y-axis</b> is the `molecule_chembl_id`. On the click of each button, the connector list changes between `activity count`, `maximum pChEMBL value` and `average pChEMBL value`.
 
 ### Provided Lists
 
