@@ -21,32 +21,32 @@ The <b>x-axis</b> is the `target_chembl_id` and the <b>y-axis</b> is the `molecu
 
 ### Provided Lists
 
-* <b>List of targets:</b><br>
-CHEMBL325<br>
-CHEMBL1937<br>
-CHEMBL1829<br>
-CHEMBL3524<br>
-CHEMBL2563<br>
-CHEMBL1865<br>
-CHEMBL2716<br>
-CHEMBL3192<br>
-CHEMBL4145<br>
-CHEMBL5103<br>
-CHEMBL3310<br>
+<b>List of targets:</b><br>
+* CHEMBL325<br>
+* CHEMBL1937<br>
+* CHEMBL1829<br>
+* CHEMBL3524<br>
+* CHEMBL2563<br>
+* CHEMBL1865<br>
+* CHEMBL2716<br>
+* CHEMBL3192<br>
+* CHEMBL4145<br>
+* CHEMBL5103<br>
+* CHEMBL3310<br>
 
-* <b>List of molecules:</b><br>
-CHEMBL98<br>
-CHEMBL99<br>
-CHEMBL27759<br>
-CHEMBL2018302<br>
-CHEMBL483254<br>
-CHEMBL1213490<br>
-CHEMBL356769<br>
-CHEMBL272980<br>
-CHEMBL430060<br>
-CHEMBL1173445<br>
-CHEMBL356066<br>
-CHEMBL1914702<br>
+<b>List of molecules:</b><br>
+* CHEMBL98<br>
+* CHEMBL99<br>
+* CHEMBL27759<br>
+* CHEMBL2018302<br>
+* CHEMBL483254<br>
+* CHEMBL1213490<br>
+* CHEMBL356769<br>
+* CHEMBL272980<br>
+* CHEMBL430060<br>
+* CHEMBL1173445<br>
+* CHEMBL356066<br>
+* CHEMBL1914702<br>
 
 ## Run the project
 ```
