@@ -4,13 +4,13 @@ services:
 
   flask:
     build: ./backend
+    image: flask
     container_name: flask-app
     restart: always
+    ports:
+      - "5000:5000"
     expose:
       - 5000
-    networks:
-      vpcbr:
-        ipv4_address: 10.5.0.5
 
   http-server:
     build: ./frontend/activity-heatmap
@@ -18,12 +18,3 @@ services:
     restart: always
     ports:
       - "8080:8080"
-
-networks:
-  vpcbr:
-    driver: bridge
-    ipam:
-      config:
-        - subnet: 10.5.0.0/16
-
-        
