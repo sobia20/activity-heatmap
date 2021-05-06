@@ -1,7 +1,7 @@
 Babel==2.6.0
 click==6.7
 Flask==1.0.2
-Flask-Cors==3.0.6
+Flask-Cors==3.0.9
 gunicorn==0.17.2
 itsdangerous==0.24
 nose2==0.9.1
