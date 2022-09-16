@@ -12,5 +12,5 @@ MarkupSafe==1.0
 pathlib2==2.3.2
 requests==2.19.1
 Jinja2==2.10
-Mako==1.1.0
+Mako==1.2.2
 chembl-webresource-client==0.10.0
